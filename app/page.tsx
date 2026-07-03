@@ -1,9 +1,14 @@
+import Container from "@/components/Container";
+import SearchBar from "@/components/SearchBar";
+
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-950 flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-white">
-        PulseBoard
-      </h1>
+    <main className="min-h-screen">
+      <Container>
+        
+        <SearchBar />
+      </Container>
     </main>
   );
 }
